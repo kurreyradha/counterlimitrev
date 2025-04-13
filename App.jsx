@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const App=()=>{
-  const [counter,setCounter]=useState(25)
+  const [counter,setCounter]=useState(5)
 
 
   // let counter=15
@@ -9,7 +9,7 @@ const App=()=>{
   const addValue=()=>{
 
     if(counter==20){
-      setCounter(counter=20)
+      setCounter(counter=25)
     }
     else{
       setCounter(counter+1)
